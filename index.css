@@ -8,7 +8,7 @@ body{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-top: 1rem;
+        padding-top: 10px;
         background-color: cornflowerblue;
 }
 main{
@@ -18,7 +18,7 @@ main{
         justify-content: center;
         gap: 20px;
         background: white;
-        padding: 20px;
+        padding: 10px;
 }
 .calc{
         display: flex;
@@ -60,4 +60,26 @@ button:hover{
 }
 .igual:hover{
         background-color: cornflowerblue;
+}
+@media screen and (max-width: 515px  ) {
+       
+        button{
+        width: 90px;
+        height: 50px;
+
+
+}
+.igual{
+     background-color: rgb(156, 189, 252);
+     width: 125px;
+}
+.res{
+        border: 2px solid cornflowerblue;
+        width:100%;
+        font-size: 2rem;
+        overflow-wrap: break-word;
+        height: 50px;
+        text-align: end;
+
+}
 }
