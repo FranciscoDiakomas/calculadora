@@ -83,3 +83,9 @@ button:hover{
 
 }
 }
+.mathError{
+        min-height: 20px;
+        font-size: 18pt;
+        text-align: center;
+        color:  cornflowerblue;
+}
